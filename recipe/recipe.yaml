@@ -1,5 +1,5 @@
 context:
-  version: "0.3.45"
+  version: "0.3.47"
 
 package:
   name: yfinance-ta-patterns
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/y/yfinance-ta-patterns/yfinance_ta_patterns-${{ version }}.tar.gz
-  sha256: a58f5a0981e7696cd8eb0c75900c0f33dc865f676ca969e53330aad0dffac4eb
+  sha256: 67d389e7622ff16660d79fa2aca28dad794fe0d5130ef04d0bc47bde7d5f1cd6
 
 build:
   number: 0
@@ -34,9 +34,12 @@ tests:
         - "*"
       imports:
         - yfinance_ta_patterns
+        - yfinance_ta_patterns.mcp_server
+        - yfinance_ta_patterns.economic_calendar
       pip_check: true
   - script:
       - python -m yfinance_ta_patterns.cli --help
+      - python -m yfinance_ta_patterns.mcp_server --help
 
 about:
   homepage: https://github.com/eminsk/yfinance-ta-patterns
