@@ -6,7 +6,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/y/yfinance-ta-patterns/yfinance_ta_patterns-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/y/yfinance_ta_patterns/yfinance_ta_patterns-${{ version }}.tar.gz
   sha256: aef0ba7e0fb0f12f70ff98e38bde3bb104903fea659f85045e2cfdf224ae36c6
 
 build:
