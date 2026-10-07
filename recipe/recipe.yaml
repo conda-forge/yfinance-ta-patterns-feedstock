@@ -1,5 +1,5 @@
 context:
-  version: "0.3.49"
+  version: "0.3.50"
 
 package:
   name: yfinance-ta-patterns
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/y/yfinance-ta-patterns/yfinance_ta_patterns-${{ version }}.tar.gz
-  sha256: 7a991141a83bbbfbd129033e66c74fda8e649579178af4f9987c5f5847d039e6
+  sha256: a76ef720971987af9d79117fe2087716b16d7ae30595ef3ca3cc6206313d937b
 
 build:
   number: 0
