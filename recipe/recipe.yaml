@@ -1,5 +1,5 @@
 context:
-  version: "0.3.64"
+  version: "0.3.65"
 
 package:
   name: yfinance-ta-patterns
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/y/yfinance-ta-patterns/yfinance_ta_patterns-${{ version }}.tar.gz
-  sha256: fc70e3f718e252f74854d7ece2351df1d78397f387e0d218498e3db5f0714e7b
+  sha256: 5565c8b6cf8555561aaf57fe69df2b897c9fd87c04088dbd4f11806341578898
 
 build:
   number: 0
@@ -23,7 +23,6 @@ requirements:
     - python >=${{ python_min }}
     - pandas >=1.3.0
     - numpy >=1.20
-    - nanogemm >=0.3.13
     - pytz >=2022.5
     - rich >=10.0.0
     - yfinance >=0.2.54
